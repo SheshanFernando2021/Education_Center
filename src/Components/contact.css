@@ -1,0 +1,27 @@
+.Contacts {
+    min-height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    background-image: linear-gradient(to right top, #37393c, #2d2e30, #232425, #1a1a1b, #0f0f0f);
+    color: rgba(255, 255, 255, 0.844);
+    font-size: 1.2em;
+  }
+  
+  .one {
+    flex: 1; 
+    text-align: left;
+    padding-left: 50px; 
+  }
+  
+  .two {
+    flex: 1; 
+    text-align: left;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(243, 255, 240);
+    cursor: pointer;
+  }
+  
